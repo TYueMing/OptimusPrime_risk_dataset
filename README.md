@@ -6,6 +6,8 @@ this is a dataset of risk in Auto vehicles
 
 
 # 解释
+
+
 node_dict = {
     "ego": 0, "person": 1, "bicycle": 2, "car": 3, "motorbike": 4, "aeroplane": 5, "bus": 6, "train": 7, "truck": 8,
     "boat": 9, "traffic light": 10, "fire hydrant": 11, "stop sign": 12, "parking meter": 13, "bench": 14, "bird": 15,

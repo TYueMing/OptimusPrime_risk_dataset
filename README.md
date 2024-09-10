@@ -1,5 +1,5 @@
 # OptimusPrime_risk_dataset
-this is a dataset of risk in Auto vehicles
+This is a dataset for the hazard prediction task for autonomous driving
 
 这是V1.1版本的数据集
 里面是Carla中采集的GCN训练数据集
@@ -7,7 +7,7 @@ this is a dataset of risk in Auto vehicles
 
 # 解释
 
-
+# 节点编码
 node_dict = {
     "ego": 0, "person": 1, "bicycle": 2, "car": 3, "motorbike": 4, "aeroplane": 5, "bus": 6, "train": 7, "truck": 8,
     "boat": 9, "traffic light": 10, "fire hydrant": 11, "stop sign": 12, "parking meter": 13, "bench": 14, "bird": 15,
@@ -20,12 +20,12 @@ node_dict = {
     "tvmonitor": 63, "laptop": 64, "mouse": 65, "remote": 66, "keyboard": 67, "cell phone": 68, "microwave": 69,
     "oven": 70, "toaster": 71, "sink": 72, "refrigerator": 73, "book": 74, "clock": 75, "vase": 76, "scissors": 77,
     "teddy bear": 78, "hair drier": 79, "toothbrush": 80,
-
     "Invaded-lane":81, "In-lane":82, "Potential—left":83,"Potential—right":84, "Left-lane":85, "Right-lane":86, "Safe-zone":87,
     "On-ground":88, "In-air":89, "Stationary":90, "kinetic":91,
     "Straight":92, "Intersection":93
 }
 
+# 边编码
 edge_attr = {
     "visible-Top-Left": 0, "very_far-Top-Left": 1,  "far-Top-Left": 2,  "near-Top-Left": 3, "very_near-Top-Left": 4,
     "close-Top-Left": 5,"extremely_close-Top-Left": 6,   "dangerous_distance-Top-Left": 7,
